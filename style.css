@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    background: url("img/pexels-tyler-lastovich-699122\ \(1\).jpg") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    
+}
+.header-content{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+#about{
+    background: #000;
+    min-height: 60vh;
+    padding-top: 5%;
+}
+.mobile-brand-logo .img{
+margin-left: 5%;
+size: 20px;
+}
+
+
+.card{
+ width: 20rem;
+ margin-left: 20%;
+ color: blue;
+ font-weight: 500;
+}
+#testimonial
+{
+    background: url("img/pexels-deyvi-romero-89955.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.testimonial-2{
+    background:url("img/tv/pexels-lisa-fotios-1444416.jpg") no-repeat center fixed;
+    background-size: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
+}
+
+.testimonial-2::after{
+    content: '';
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    height: auto;
+    inset: 0;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.list-inline-item{
+    color: #fff;
+}
+
+/*  progress bar */
+
+.market-condition{
+    height: 70vh;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.progress{
+    background: #fff;
+    height: 5em;
+    margin-top: 5px;
+}
